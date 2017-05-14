@@ -17,7 +17,38 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
 
-var name = [];
-name.push(Ross);
-name.push(Wu);
-name;
+// start of push()
+var nameArray = [];
+nameArray.push("Ross");
+nameArray.push("Wu");
+console.log(nameArray);
+
+genericNumberArray.push(6,7,8,9,10);
+//end of push()
+
+//start of pop()
+colors.pop(3);
+
+//end of pop()
+
+//start of reverse
+scrambledWords.reverse();
+phoneNumber.reverse();
+//end of reverse
+
+//start of shift
+orderQueue.shift();
+
+//end of shift
+
+//start of sort
+mixedNums.sort();
+mixedWords.sort();
+//end of sort
+
+//start of splice
+fruitCollection.splice(1,3);
+//end of splice
+
+
+
