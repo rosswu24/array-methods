@@ -27,7 +27,7 @@ genericNumberArray.push(6,7,8,9,10);
 //end of push()
 
 //start of pop()
-colors.pop(3);
+var popResult = colors.pop(3);
 
 //end of pop()
 
@@ -37,7 +37,7 @@ phoneNumber.reverse();
 //end of reverse
 
 //start of shift
-orderQueue.shift();
+var nextOrder = orderQueue.shift();
 
 //end of shift
 
@@ -47,8 +47,51 @@ mixedWords.sort();
 //end of sort
 
 //start of splice
-fruitCollection.splice(1,3);
+var notFruit = fruitCollection.splice(1,3);
+// var notFruit = fruitCollection.splice(2, 0, "Pug", "Lady Bug", " Scissors");
 //end of splice
 
+//start gemBox
+gemBox.splice(5,7,"Sapphire");
+//End gemBox
 
+//start of upToTen
+upToTen.splice(2,0,3,4,5,6,7,8);
+//End upToTen
 
+//start of brownOnly
+brownOnly.splice(1,5, 'brown','brown', 'brown');
+//End of brownOnly
+
+//start of unshift
+var orderedValuesNewLength = orderedValues.unshift(1,2,3);
+//end of unshift
+
+//start of Concat
+var randomThingsArray = genericNumberArray.concat(colors);
+var updatedOrders = orderQueue.concat([{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}]);
+//end of Concat
+
+//start of join
+var sentence = scrambledWords.join(" ");
+var myFruits = fruitCollection.join(" + ");
+//end of join
+
+//start of Slice
+var favoriteFriends = friends.slice(1,3);
+var owesMoney = friends.slice(3,7);
+//end of Slice
+
+//start of to string
+var monthNameString = monthNames.toString();
+//end of to string
+
+//start of indexof
+var favoriteColor = colors.indexOf("Red");
+var favoriteEvenNumber = mixedNums.indexOf(76);
+//end of indexof
+
+// start of lastIndexOf
+var lastNine = bulkNumbers.lastIndexOf(9); 
+var lastFive = bulkNumbers.lastIndexOf(5);
+// end of lastIndexOf
